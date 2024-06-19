@@ -40,6 +40,16 @@
     </plugin>
 </plugins>
   </build>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.0.2</version> <!-- Update to the latest stable version -->
+        </plugin>
+        <!-- Other plugins -->
+    </plugins>
+</build>
 <distributionManagement>
   <repository>
     <id>releases</id>
